@@ -1,9 +1,9 @@
 #!/bin/sh
 
-fr=usr/share/X11/xkb/symbols/fr
-base=usr/share/X11/xkb/rules/base.xml
-evdev=usr/share/X11/xkb/rules/evdev.xml
-map=usr/share/kbd/keymaps/i386/bepo/fr-bepo_custom.map.gz
+fr=/usr/share/X11/xkb/symbols/fr
+base=/usr/share/X11/xkb/rules/base.xml
+evdev=/usr/share/X11/xkb/rules/evdev.xml
+map=/usr/share/kbd/keymaps/i386/bepo/fr-bepo_custom.map.gz
 
 # Restore original files
 if [ -f "$fr".back ]; then
