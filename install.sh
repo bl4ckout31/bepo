@@ -7,28 +7,24 @@ map=/usr/share/kbd/keymaps/i386/bepo/fr-bepo_custom.map.gz
 
 diff fr "$fr" > /dev/null
 if [ $? -ne 0 ]; then
-    echo "ok1"
     cp "$fr" "$fr".back
     cp fr "$fr"
 fi
 
 diff base.xml "$base" > /dev/null
 if [ $? -ne 0 ]; then
-    echo "ok2"
     cp "$base" "$base".back
     cp base.xml "$base"
 fi
 
 diff evdev.xml "$evdev" > /dev/null
 if [ $? -ne 0 ]; then
-    echo "ok3"
     cp "$evdev" "$evdev".back
     cp evdev.xml "$evdev"
 fi
 
 diff fr-bepo_custom.map.gz "$map" > /dev/null
 if [ $? -ne 0 ]; then
-    echo "ok4"
     cp fr-bepo_custom.map.gz "$map"
 fi
 
