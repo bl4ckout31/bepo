@@ -1,7 +1,7 @@
 bepo
 ====
 
-Custom version of the french dvorak-way keyboard layout
+Custom version of the french dvorak-way keyboard layout (based on 1.0rc3)
 
 ## Changements
 
