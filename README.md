@@ -10,7 +10,7 @@ Custom version of the french dvorak-way keyboard layout (based on 1.0rc3)
 * Inversion de `«` et `<`
 * Inversion de `»` et `>`
 
-### 2nde rangée
+### 2ème rangée
 * `è` devient `w`
 * `^` devient `` ` `` (toujours en touche morte, `!` reste en Maj)
 * `z` devient `^` (touche morte)
