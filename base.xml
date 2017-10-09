@@ -40,7 +40,7 @@
     <model>
       <configItem>
         <name>latitude</name>
-        <description>Dell Latutude laptop</description>
+        <description>Dell Latitude laptop</description>
         <vendor>Dell</vendor>
       </configItem>
     </model>
@@ -1426,7 +1426,7 @@
         <variant>
           <configItem>
             <name>altgr-intl</name>
-            <description>English (intl., with dead keys)</description>
+            <description>English (intl., with AltGr dead keys)</description>
             <languageList>
               <iso639Id>eng</iso639Id>
               <iso639Id>fra</iso639Id>
@@ -1812,12 +1812,313 @@
     </layout>
     <layout>
       <configItem>
+        <name>bd</name>
+        
+        <shortDescription>bn</shortDescription>
+        <description>Bangla</description>
+        <languageList>
+          <iso639Id>ben</iso639Id>
+          
+          <iso639Id>sat</iso639Id>
+        </languageList>
+      </configItem>
+      <variantList>
+        <variant>
+          <configItem>
+            <name>probhat</name>
+            <description>Bangla (Probhat)</description>
+          </configItem>
+        </variant>
+      </variantList>
+    </layout>
+    <layout>
+      <configItem>
         <name>in</name>
         
         <shortDescription>in</shortDescription>
         <description>Indian</description>
       </configItem>
       <variantList>
+        <variant>
+          <configItem>
+            <name>ben</name>
+            
+            <shortDescription>bn</shortDescription>
+            <description>Bangla (India)</description>
+            <languageList>
+              <iso639Id>ben</iso639Id>
+              
+              <iso639Id>sat</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>ben_probhat</name>
+            
+            <shortDescription>bn</shortDescription>
+            <description>Bangla (India, Probhat)</description>
+            <languageList>
+              <iso639Id>ben</iso639Id>
+              
+              <iso639Id>sat</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>ben_baishakhi</name>
+            <description>Bangla (India, Baishakhi)</description>
+            <languageList>
+              <iso639Id>ben</iso639Id>
+              
+              <iso639Id>sat</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>ben_bornona</name>
+            <description>Bangla (India, Bornona)</description>
+            <languageList>
+              <iso639Id>ben</iso639Id>
+              
+              <iso639Id>sat</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+         <variant>
+          <configItem>
+            <name>ben_gitanjali</name>
+            <description>Bangla (India, Uni Gitanjali)</description>
+            <languageList>
+              <iso639Id>ben</iso639Id>
+              
+              <iso639Id>sat</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>ben_inscript</name>
+            <description>Bangla (India, Baishakhi Inscript)</description>
+            <languageList>
+              <iso639Id>ben</iso639Id>
+              
+              <iso639Id>sat</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>eeyek</name>
+            <description>Manipuri (Eeyek)</description>
+            <languageList>
+              <iso639Id>mni</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>guj</name>
+            
+            <shortDescription>gu</shortDescription>
+            <description>Gujarati</description>
+            <languageList>
+              <iso639Id>guj</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>guru</name>
+            
+            <shortDescription>pa</shortDescription>
+            <description>Punjabi (Gurmukhi)</description>
+            <languageList>
+              <iso639Id>pan</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>jhelum</name>
+            
+            <shortDescription>pa</shortDescription>
+            <description>Punjabi (Gurmukhi Jhelum)</description>
+            <languageList>
+              <iso639Id>pan</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>kan</name>
+            
+            <shortDescription>kn</shortDescription>
+            <description>Kannada</description>
+            <languageList>
+              <iso639Id>kan</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>kan-kagapa</name>
+            
+            <shortDescription>kn</shortDescription>
+            <description>Kannada (KaGaPa phonetic)</description>
+            <languageList>
+              <iso639Id>kan</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>mal</name>
+            
+            <shortDescription>ml</shortDescription>
+            <description>Malayalam</description>
+            <languageList>
+              <iso639Id>mal</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>mal_lalitha</name>
+            
+            <shortDescription>ml</shortDescription>
+            <description>Malayalam (Lalitha)</description>
+            <languageList>
+              <iso639Id>mal</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>mal_enhanced</name>
+            
+            <shortDescription>ml</shortDescription>
+            <description>Malayalam (enhanced Inscript, with rupee)</description>
+            <languageList>
+              <iso639Id>mal</iso639Id>
+            </languageList>
+          </configItem>
+         </variant>
+         <variant>
+           <configItem>
+            <name>ori</name>
+            
+            <shortDescription>or</shortDescription>
+            <description>Oriya</description>
+            <languageList>
+              <iso639Id>ori</iso639Id>
+              
+              <iso639Id>sat</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <variant>
+           <configItem>
+            <name>olck</name>
+            
+            <shortDescription>sat</shortDescription>
+            <description>Ol Chiki</description>
+            <languageList>
+              
+              <iso639Id>sat</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>tam_unicode</name>
+            
+            <shortDescription>ta</shortDescription>
+            <description>Tamil (Unicode)</description>
+            <languageList>
+              <iso639Id>tam</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>tam_keyboard_with_numerals</name>
+            
+            <shortDescription>ta</shortDescription>
+            <description>Tamil (keyboard with numerals)</description>
+            <languageList>
+              <iso639Id>tam</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>tam_TAB</name>
+            
+            <shortDescription>ta</shortDescription>
+            <description>Tamil (TAB typewriter)</description>
+            <languageList>
+              <iso639Id>tam</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>tam_TSCII</name>
+            
+            <shortDescription>ta</shortDescription>
+            <description>Tamil (TSCII typewriter)</description>
+            <languageList>
+              <iso639Id>tam</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>tam</name>
+            
+            <shortDescription>ta</shortDescription>
+            <description>Tamil</description>
+            <languageList>
+              <iso639Id>tam</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>tel</name>
+            
+            <shortDescription>te</shortDescription>
+            <description>Telugu</description>
+            <languageList>
+              <iso639Id>tel</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>tel-kagapa</name>
+            
+            <shortDescription>te</shortDescription>
+            <description>Telugu (KaGaPa phonetic)</description>
+            <languageList>
+              <iso639Id>tel</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>tel-sarala</name>
+            
+            <shortDescription>te</shortDescription>
+            <description>Telugu (Sarala)</description>
+            <languageList>
+              <iso639Id>tel</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
         <variant>
           <configItem>
             <name>urd-phonetic</name>
@@ -1853,6 +2154,61 @@
         </variant>
         <variant>
           <configItem>
+            <name>bolnagri</name>
+            
+            <shortDescription>hi</shortDescription>
+            <description>Hindi (Bolnagri)</description>
+            <languageList>
+              <iso639Id>hin</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>hin-wx</name>
+            
+            <shortDescription>hi</shortDescription>
+            <description>Hindi (Wx)</description>
+            <languageList>
+              <iso639Id>hin</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>hin-kagapa</name>
+            
+            <shortDescription>hi</shortDescription>
+            <description>Hindi (KaGaPa phonetic)</description>
+            <languageList>
+              <iso639Id>hin</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>san-kagapa</name>
+            
+            <shortDescription>sa</shortDescription>
+            <description>Sanskrit (KaGaPa phonetic)</description>
+            <languageList>
+              <iso639Id>san</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>mar-kagapa</name>
+            
+            <shortDescription>mr</shortDescription>
+            <description>Marathi (KaGaPa phonetic)</description>
+            <languageList>
+              <iso639Id>mar</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>eng</name>
             
             <shortDescription>en</shortDescription>
@@ -1878,7 +2234,7 @@
         <variant>
           <configItem>
             <name>alternatequotes</name>
-            <description>Bosnian (with guillements)</description>
+            <description>Bosnian (with guillemets)</description>
           </configItem>
         </variant>
         <variant>
@@ -2350,7 +2706,7 @@
         <variant>
           <configItem>
             <name>alternatequotes</name>
-            <description>Croatian (with guillements)</description>
+            <description>Croatian (with guillemets)</description>
           </configItem>
         </variant>
         <variant>
@@ -4263,7 +4619,7 @@
         <variant>
           <configItem>
             <name>phonetic_fr</name>
-            <description>Russian Russian (phonetic, French)</description>
+            <description>Russian (phonetic, French)</description>
           </configItem>
         </variant>
       </variantList>
@@ -4346,7 +4702,7 @@
         <variant>
           <configItem>
             <name>alternatequotes</name>
-            <description>Slovenian (with guillements)</description>
+            <description>Slovenian (with guillemets)</description>
           </configItem>
         </variant>
         <variant>
@@ -4432,6 +4788,7 @@
         <variant>
           <configItem>
             <name>ast</name>
+            <shortDescription>ast</shortDescription>
             <description>Asturian (Spain, with bottom-dot H and bottom-dot L)</description>
             <languageList>
               <iso639Id>ast</iso639Id>
@@ -4441,6 +4798,7 @@
         <variant>
           <configItem>
             <name>cat</name>
+            <shortDescription>ca</shortDescription>
             <description>Catalan (Spain, with middle-dot L)</description>
             <languageList>
               <iso639Id>cat</iso639Id>
@@ -4519,6 +4877,12 @@
           <configItem>
             <name>svdvorak</name>
             <description>Swedish (Svdvorak)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>us_dvorak</name>
+            <description>Swedish (based on US Intl. Dvorak)</description>
           </configItem>
         </variant>
         <variant>
@@ -5649,7 +6013,7 @@
       <configItem>
         <name>my</name>
         <shortDescription>ms</shortDescription>
-        <description>Malay (Jawi)</description>
+        <description>Malay (Jawi, Arabic Keyboard)</description>
         <languageList>
           <iso639Id>ind</iso639Id>
           <iso639Id>msa</iso639Id>
@@ -5660,7 +6024,14 @@
           <iso639Id>mfa</iso639Id>
         </languageList>
       </configItem>
-      <variantList/>
+      <variantList>
+       <variant>
+         <configItem>
+          <name>phonetic</name>
+            <description>Malay (Jawi, phonetic)</description>
+         </configItem>
+       </variant>
+      </variantList>
     </layout>
   </layoutList>
   <optionList>
@@ -5698,6 +6069,12 @@
         <configItem>
           <name>grp:win_switch</name>
           <description>Any Win (while pressed)</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>grp:menu_switch</name>
+          <description>Menu (while pressed), Shift+Menu for Menu</description>
         </configItem>
       </option>
       <option>
@@ -6153,7 +6530,7 @@
       
       <configItem>
         <name>kpdl</name>
-        <description>Numeric keypad Delete behaviour</description>
+        <description>Numeric keypad Delete behavior</description>
       </configItem>
       <option>
         <configItem>
@@ -6695,19 +7072,19 @@
       <option>
         <configItem>
           <name>nbsp:level4</name>
-          <description>Non-breaking space at the 4th lever</description>
+          <description>Non-breaking space at the 4th level</description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>nbsp:level4n</name>
-          <description>Non-breaking space at the 4th lever, thin non-breaking space at the 6th level</description>
+          <description>Non-breaking space at the 4th level, thin non-breaking space at the 6th level</description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>nbsp:level4nl</name>
-          <description>Non-breaking space at the 4th lever, thin non-breaking space at the 6th level (via Ctrl+Shift)</description>
+          <description>Non-breaking space at the 4th level, thin non-breaking space at the 6th level (via Ctrl+Shift)</description>
         </configItem>
       </option>
       <option>
@@ -6749,7 +7126,7 @@
       <option>
         <configItem>
           <name>nbsp:zwnj2nb3nnb4</name>
-          <description>Zero-width non-joiner at the 2nd level, non-breaking space at the 3rd level, thin non-breakable space at the 4th level</description>
+          <description>Zero-width non-joiner at the 2nd level, non-breaking space at the 3rd level, thin non-breaking space at the 4th level</description>
         </configItem>
       </option>
       <option>
