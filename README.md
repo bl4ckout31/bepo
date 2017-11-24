@@ -17,8 +17,8 @@ Custom version of the french dvorak-way keyboard layout (based on 1.0rc3)
 * `w` devient `¨` (touche morte)
 
 ### 3ème rangée
-* `ù` devient `[` (`u` en AltGr)
-* `¨` devient `]` (`i` en AltGr)
+* `ù` devient `[` (`u` + AltGr)
+* `¨` devient `]` (`i` + AltGr)
 
 ### 4ème rangée
 * `à` devient `z` (`\` reste en AltGr)
