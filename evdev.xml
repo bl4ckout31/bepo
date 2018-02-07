@@ -1599,6 +1599,12 @@
         </variant>
         <variant>
           <configItem>
+            <name>olpc</name>
+            <description>Arabic (OLPC)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>mac</name>
             <description>Arabic (Macintosh)</description>
           </configItem>
@@ -3781,6 +3787,32 @@
           <configItem>
             <name>ibm</name>
             <description>Italian (IBM 142)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>intl</name>
+            <description>Italian (intl., with dead keys)</description>
+            <languageList>
+              <iso639Id>ger</iso639Id>
+              <iso639Id>fra</iso639Id>
+              <iso639Id>ita</iso639Id>
+              <iso639Id>slo</iso639Id>
+              <iso639Id>srd</iso639Id>
+              <iso639Id>nap</iso639Id>
+              <iso639Id>scn</iso639Id>
+              <iso639Id>fur</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>scn</name>
+            <description>Sicilian</description>
+            <languageList>
+              <iso639Id>ita</iso639Id>
+              <iso639Id>scn</iso639Id>
+            </languageList>
           </configItem>
         </variant>
       </variantList>

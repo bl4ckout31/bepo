@@ -532,13 +532,6 @@ xkb_symbols "bepo" {
     key <SPCE> { [           space, nobreakspace,     underscore,          U202F ] }; // ␣ (espace insécable) _ (espace insécable fin)
 };
 
-// Bépo : Improved ergonomic french keymap using Dvorak method.
-// Built by community on 'Dvorak Fr / Bépo' :
-// see http://www.clavier-dvorak.org/wiki/ to join and help.
-// XOrg integration (1.0rc2 version) in 2008
-// by Frédéric Boiteux <fboiteux at free dot fr>
-//
-
 // Customized by Sébastien Thirion, from the original keymap (Bépo layout 1.0rc2 version)
 // for english and dev
 
