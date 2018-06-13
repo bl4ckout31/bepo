@@ -12,7 +12,7 @@
     <model>
       <configItem>
         <name>pc102</name>
-        <description>Generic 101-key PC (intl.)</description>
+        <description>Generic 102-key PC (intl.)</description>
         <vendor>Generic</vendor>
       </configItem>
     </model>
@@ -2039,10 +2039,10 @@
         </variant>
         <variant>
           <configItem>
-            <name>tam_unicode</name>
+            <name>tam_tamilnet</name>
             
             <shortDescription>ta</shortDescription>
-            <description>Tamil (Unicode)</description>
+            <description>Tamil (TamilNet '99)</description>
             <languageList>
               <iso639Id>tam</iso639Id>
             </languageList>
@@ -2050,10 +2050,10 @@
         </variant>
         <variant>
           <configItem>
-            <name>tam_keyboard_with_numerals</name>
+            <name>tam_tamilnet_with_tam_nums</name>
             
             <shortDescription>ta</shortDescription>
-            <description>Tamil (keyboard with numerals)</description>
+            <description>Tamil (TamilNet '99 with Tamil numerals)</description>
             <languageList>
               <iso639Id>tam</iso639Id>
             </languageList>
@@ -2061,10 +2061,10 @@
         </variant>
         <variant>
           <configItem>
-            <name>tam_TAB</name>
+            <name>tam_tamilnet_TAB</name>
             
             <shortDescription>ta</shortDescription>
-            <description>Tamil (TAB typewriter)</description>
+            <description>Tamil (TamilNet '99, TAB encoding)</description>
             <languageList>
               <iso639Id>tam</iso639Id>
             </languageList>
@@ -2072,10 +2072,10 @@
         </variant>
         <variant>
           <configItem>
-            <name>tam_TSCII</name>
+            <name>tam_tamilnet_TSCII</name>
             
             <shortDescription>ta</shortDescription>
-            <description>Tamil (TSCII typewriter)</description>
+            <description>Tamil (TamilNet '99, TSCII encoding)</description>
             <languageList>
               <iso639Id>tam</iso639Id>
             </languageList>
@@ -2086,7 +2086,7 @@
             <name>tam</name>
             
             <shortDescription>ta</shortDescription>
-            <description>Tamil</description>
+            <description>Tamil (Inscript)</description>
             <languageList>
               <iso639Id>tam</iso639Id>
             </languageList>
@@ -2574,7 +2574,15 @@
           <iso639Id>mya</iso639Id>
         </languageList>
       </configItem>
-      <variantList/>
+      <variantList>
+        <variant>
+          <configItem>
+            <name>zawgyi</name>
+            <shortDescription>zg</shortDescription>
+            <description>Burmese Zawgyi</description>
+          </configItem>
+        </variant>
+      </variantList>
     </layout>
     <layout>
       <configItem>
@@ -2693,6 +2701,15 @@
             <description>Uyghur</description>
             <languageList>
               <iso639Id>uig</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>altgr-pinyin</name>
+            <description>Hanyu Pinyin (altgr)</description>
+            <languageList>
+              <iso639Id>chi</iso639Id>
             </languageList>
           </configItem>
         </variant>
@@ -4919,6 +4936,12 @@
         </variant>
         <variant>
           <configItem>
+            <name>us</name>
+            <description>Swedish (US, with Swedish letters)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>swl</name>
             <description>Swedish Sign Language</description>
             <languageList>
@@ -5113,7 +5136,7 @@
             <name>tam_unicode</name>
             
             <shortDescription>ta</shortDescription>
-            <description>Tamil (Sri Lanka, Unicode)</description>
+            <description>Tamil (Sri Lanka, TamilNet '99)</description>
             <languageList>
               <iso639Id>tam</iso639Id>
             </languageList>
@@ -5122,7 +5145,7 @@
         <variant>
           <configItem>
             <name>tam_TAB</name>
-            <description>Tamil (Sri Lanka, TAB Typewriter)</description>
+            <description>Tamil (Sri Lanka, TamilNet '99, TAB encoding)</description>
             <languageList>
               <iso639Id>tam</iso639Id>
             </languageList>
