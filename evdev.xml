@@ -3233,6 +3233,12 @@
             </languageList>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>us</name>
+            <description>French (US keyboard with French letters)</description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
@@ -3945,6 +3951,15 @@
           <configItem>
             <name>ext</name>
             <description>Kazakh (extended)</description>
+            <languageList>
+              <iso639Id>kaz</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>latin</name>
+            <description>Kazakh (Latin)</description>
             <languageList>
               <iso639Id>kaz</iso639Id>
             </languageList>
@@ -5475,7 +5490,20 @@
           <iso639Id>vie</iso639Id>
         </languageList>
       </configItem>
-      <variantList/>
+      <variantList>
+        <variant>
+          <configItem>
+            <name>us</name>
+            <description>Vietnamese (US, with Vietnamese letters)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>fr</name>
+            <description>Vietnamese (French, with Vietnamese letters)</description>
+          </configItem>
+        </variant>
+      </variantList>
     </layout>
     <layout>
       <configItem>
@@ -5509,7 +5537,6 @@
           <iso639Id>jpn</iso639Id>
         </languageList>
       </configItem>
-      <variantList/>
     </layout>
     <layout>
       <configItem>
@@ -7215,17 +7242,11 @@
        </configItem>
       </option>
     </group>
-    <group allowMultipleSelection="true">
+    <group allowMultipleSelection="false">
       <configItem>
         <name>korean</name>
         <description>Korean Hangul/Hanja keys</description>
       </configItem>
-      <option>
-        <configItem>
-          <name>korean:hw_keys</name>
-          <description>Hardware Hangul/Hanja keys</description>
-        </configItem>
-      </option>
       <option>
         <configItem>
           <name>korean:ralt_rctrl</name>
