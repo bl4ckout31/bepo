@@ -449,13 +449,6 @@
     </model>
     <model>
       <configItem>
-        <name>htcdream</name>
-        <description>HTC Dream</description>
-        <vendor>HTC</vendor>
-      </configItem>
-    </model>
-    <model>
-      <configItem>
         <name>kinesis</name>
         <description>Kinesis</description>
         <vendor>Kinesis</vendor>
@@ -858,6 +851,13 @@
       <configItem>
         <name>microsoftmult</name>
         <description>Microsoft Wireless Multimedia 1.0A</description>
+        <vendor>Microsoft</vendor>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
+        <name>microsoftsurface</name>
+        <description>Microsoft Surface</description>
         <vendor>Microsoft</vendor>
       </configItem>
     </model>
@@ -1290,13 +1290,6 @@
     </model>
     <model>
       <configItem>
-       <name>htcdream</name>
-       <description>Htc Dream phone</description>
-       <vendor>htc</vendor>
-     </configItem>
-    </model>
-    <model>
-      <configItem>
        <name>teck227</name>
        <description>Truly Ergonomic 227</description>
        <vendor>Truly Ergonomic</vendor>
@@ -1653,6 +1646,12 @@
           <configItem>
             <name>plisi</name>
             <description>Albanian (Plisi)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>veqilharxhi</name>
+            <description>Albanian (Veqilharxhi)</description>
           </configItem>
         </variant>
       </variantList>
@@ -3184,6 +3183,12 @@
       <variantList>
         <variant>
           <configItem>
+            <name>winkeys</name>
+            <description>Finnish (Winkeys)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>classic</name>
             <description>Finnish (classic)</description>
           </configItem>
@@ -3192,12 +3197,6 @@
           <configItem>
             <name>nodeadkeys</name>
             <description>Finnish (classic, no dead keys)</description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
-            <name>winkeys</name>
-            <description>Finnish (Winkeys)</description>
           </configItem>
         </variant>
         <variant>
@@ -4230,6 +4229,15 @@
           <configItem>
             <name>lekpa</name>
             <description>Lithuanian (LEKPa)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>sgs</name>
+            <description>Samogitian</description>
+            <languageList>
+              <iso639Id>sgs</iso639Id>
+            </languageList>
           </configItem>
         </variant>
       </variantList>
@@ -6282,6 +6290,17 @@
        </variant>
       </variantList>
     </layout>
+    <layout> 
+      <configItem>
+        <name>jv</name>
+        <shortDescription>jv</shortDescription>
+        <description>Indonesian (Javanese)</description>
+        <languageList>
+          <iso639Id>jv</iso639Id>
+        </languageList>
+      </configItem>
+      <variantList/>
+    </layout>
     <layout>
       <configItem>
         <name>my</name>
@@ -6747,6 +6766,19 @@
         <configItem>
           <name>grp_led:scroll</name>
           <description>Scroll Lock</description>
+        </configItem>
+      </option>
+    </group>
+    <group allowMultipleSelection="true">
+      <!-- Using LEDs to indicate modifiers -->
+      <configItem>
+        <name>mod_led</name>
+        <description>Use keyboard LED to indicate modifiers</description>
+      </configItem>
+      <option>
+        <configItem>
+          <name>mod_led:compose</name>
+          <description>Compose</description>
         </configItem>
       </option>
     </group>
